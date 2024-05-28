@@ -1,0 +1,54 @@
+.BASE {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 10px;
+
+}
+h1 {
+  font-size: 1.5em;
+}
+.Container {
+  padding-left: 20px;
+}
+h2 {
+  font-size: 1em;
+}
+.Feed {
+  margin: 0px 0;
+  align-self: flex-start;
+}
+.Line1 {
+  position: absolute;
+  width: 106px;
+  border: 2px solid #d1b5ff;
+}
+.Envelope {
+  position: absolute;
+  height: 20px;
+  width: 26px;
+}
+#Rectangle1 {
+  padding: 20px;
+  font-size: 1em;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: left;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   /* Adjust this value to increase or decrease the space */
+}
+@media (max-width: 600px) {
+  #Rectangle1 {
+    width: 80%;
+    border: 10px solid #000;
+  }
+}
+
