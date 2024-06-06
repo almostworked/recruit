@@ -15,6 +15,7 @@ function Recruit() { /* Home feed base */
         <JobDetailsButton />
         <Header />
       </div>
+      <NavigationBar />
     </div>
   );
 }
@@ -63,6 +64,18 @@ function Header() {
       </div>
     </div>
   );
+}
+
+function NavigationBar() {
+  return (
+    <div className="NavigationBar">
+      <a href="#search"><i className="fas fa-user"></i></a>
+      <a href="#resume"><i className="fas fa-file-alt"></i></a>
+      <a href="#home"><i className="fas fa-home"></i></a>      
+      <a href="#awards"><i className="fas fa-award"></i></a>
+      <a href="#profile"><i className="fas fa-user"></i></a>
+    </div>
+  )
 }
 
 
